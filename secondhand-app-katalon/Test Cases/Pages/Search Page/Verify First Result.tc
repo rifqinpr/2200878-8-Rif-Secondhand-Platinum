@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify First Result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4450cbc8-5a73-4e8d-8b4c-e84ae0c5d047</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>560a3709-b6d5-4024-a095-eb66883bfd3b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>560a3709-b6d5-4024-a095-eb66883bfd3b</id>
+      <masked>false</masked>
+      <name>expectedText</name>
+   </variable>
+</TestCaseEntity>
