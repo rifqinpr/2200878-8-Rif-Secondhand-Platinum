@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Category Filter - Positive Case" time="60.122" tests="6" failures="0" errors="0">
+   <testsuite name="Feature Category Filter - Positive Case" tests="6" failures="0" errors="0" time="60.122" skipped="0" timestamp="2023-07-03 17:44:32" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Category Filter - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174429\\Feature Category Filter - Positive Case\\20230703_174430"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174429\\Feature Category Filter - Positive Case\\20230703_174430\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="dbea4da2059fcf773a2fa3052185ec76"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category" time="9.425" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:44:32 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category
+
+2023-07-03 17:44:32 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:44:32 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category
+
+2023-07-03 17:44:32 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category
+
+2023-07-03 17:44:32 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:44:32 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:44:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:44:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:44:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:44:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:36 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:44:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:39 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Semua Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Semua Category Filter' successfully
+
+2023-07-03 17:44:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Semua Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Semua Category Filter
+
+2023-07-03 17:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clicked on
+
+2023-07-03 17:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clicked on
+
+2023-07-03 17:44:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Semua Category Filter' successfully
+
+2023-07-03 17:44:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":"\bBaju|\bElektronik|\bHobi|\bKendaraan|\bKesehatan", "isRegex":true], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:44:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:44:40 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Kesehatan' and expected text '\bBaju|\bElektronik|\bHobi|\bKendaraan|\bKesehatan' are matched  using regular expression
+
+2023-07-03 17:44:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Kesehatan'
+
+2023-07-03 17:44:41 - [MESSAGE][PASSED] - Actual text 'Kesehatan' and expected text '\bBaju|\bElektronik|\bHobi|\bKendaraan|\bKesehatan' are matched  using regular expression
+
+2023-07-03 17:44:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:44:41 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:44:41 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category | PASSED
+
+2023-07-03 17:44:41 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT01 - User See Semua Product Category | PASSED
+
+2023-07-03 17:44:41 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:44:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:44:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category" time="9.666" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:44:42 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category
+
+2023-07-03 17:44:42 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:44:42 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category
+
+2023-07-03 17:44:42 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category
+
+2023-07-03 17:44:42 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:44:42 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:44:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:44:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:44:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:44:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:44:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:46 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:47 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:47 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:47 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:48 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Hobi Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Hobi Category Filter' successfully
+
+2023-07-03 17:44:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Hobi Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Hobi Category Filter
+
+2023-07-03 17:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is clicked on
+
+2023-07-03 17:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is clicked on
+
+2023-07-03 17:44:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Hobi Category Filter' successfully
+
+2023-07-03 17:44:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":getText(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")), "isRegex":false], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:44:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is: 'Hobi'
+
+2023-07-03 17:44:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:44:50 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Hobi' and expected text 'Hobi' are matched 
+
+2023-07-03 17:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Hobi'
+
+2023-07-03 17:44:51 - [MESSAGE][PASSED] - Actual text 'Hobi' and expected text 'Hobi' are matched 
+
+2023-07-03 17:44:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category | PASSED
+
+2023-07-03 17:44:51 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT02 - User See Hobi Product Category | PASSED
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:44:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category" time="8.927" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:44:51 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category
+
+2023-07-03 17:44:51 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:44:51 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:44:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:44:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:44:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:44:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:44:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:44:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:44:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:44:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:44:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:44:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:44:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:44:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:44:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:58 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:44:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:44:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Kendaraan Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Kendaraan Category Filter' successfully
+
+2023-07-03 17:44:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Kendaraan Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Kendaraan Category Filter
+
+2023-07-03 17:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clicked on
+
+2023-07-03 17:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clicked on
+
+2023-07-03 17:44:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Kendaraan Category Filter' successfully
+
+2023-07-03 17:44:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":getText(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")), "isRegex":false], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:44:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is: 'Kendaraan'
+
+2023-07-03 17:44:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:44:59 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Kendaraan' and expected text 'Kendaraan' are matched 
+
+2023-07-03 17:45:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Kendaraan'
+
+2023-07-03 17:45:00 - [MESSAGE][PASSED] - Actual text 'Kendaraan' and expected text 'Kendaraan' are matched 
+
+2023-07-03 17:45:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category | PASSED
+
+2023-07-03 17:45:00 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT03 - User See Kendaraan Product Category | PASSED
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category" time="9.506" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:00 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category
+
+2023-07-03 17:45:00 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:00 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:45:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:45:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:45:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:04 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:07 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Baju Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Baju Category Filter' successfully
+
+2023-07-03 17:45:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Baju Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Baju Category Filter
+
+2023-07-03 17:45:07 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clicked on
+
+2023-07-03 17:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clicked on
+
+2023-07-03 17:45:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Baju Category Filter' successfully
+
+2023-07-03 17:45:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":getText(findTestObject("Homepage/Kategori Filter/a_Filter Baju")), "isRegex":false], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is: 'Baju'
+
+2023-07-03 17:45:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:45:09 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Baju' and expected text 'Baju' are matched 
+
+2023-07-03 17:45:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Baju'
+
+2023-07-03 17:45:09 - [MESSAGE][PASSED] - Actual text 'Baju' and expected text 'Baju' are matched 
+
+2023-07-03 17:45:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:09 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:09 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category | PASSED
+
+2023-07-03 17:45:09 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT04 - User See Baju Product Category | PASSED
+
+2023-07-03 17:45:09 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category" time="9.421" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:10 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category
+
+2023-07-03 17:45:10 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:10 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category
+
+2023-07-03 17:45:10 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category
+
+2023-07-03 17:45:10 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:10 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:45:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:45:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:45:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:45:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:15 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Elektronik Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Elektronik Category Filter' successfully
+
+2023-07-03 17:45:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Elektronik Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Elektronik Category Filter
+
+2023-07-03 17:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is clicked on
+
+2023-07-03 17:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is clicked on
+
+2023-07-03 17:45:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Elektronik Category Filter' successfully
+
+2023-07-03 17:45:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":getText(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")), "isRegex":false], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is: 'Elektronik'
+
+2023-07-03 17:45:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:45:18 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Elektronik' and expected text 'Elektronik' are matched 
+
+2023-07-03 17:45:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Elektronik'
+
+2023-07-03 17:45:18 - [MESSAGE][PASSED] - Actual text 'Elektronik' and expected text 'Elektronik' are matched 
+
+2023-07-03 17:45:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:18 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:18 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category | PASSED
+
+2023-07-03 17:45:18 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT05 - User See Elektronik Product Category | PASSED
+
+2023-07-03 17:45:18 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category" time="13.001" classname="Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:19 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category
+
+2023-07-03 17:45:19 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:19 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category
+
+2023-07-03 17:45:19 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category
+
+2023-07-03 17:45:19 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:19 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:45:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:45:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:45:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify Category Filter Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button: Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button
+
+2023-07-03 17:45:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is visible
+
+2023-07-03 17:45:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Baju")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Baju' is clickable
+
+2023-07-03 17:45:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:27 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Elektronik")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Elektronik' is visible
+
+2023-07-03 17:45:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Hobi")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Hobi' is visible
+
+2023-07-03 17:45:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:28 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kendaraan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:29 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kendaraan' is clickable
+
+2023-07-03 17:45:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:29 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:29 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clickable
+
+2023-07-03 17:45:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is visible
+
+2023-07-03 17:45:30 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Homepage/Kategori Filter/a_Filter Semua")): Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori Filter/a_Filter Semua' is clickable
+
+2023-07-03 17:45:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify Category Filter Button' successfully
+
+2023-07-03 17:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Click Kesehatan Category Filter"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Kesehatan Category Filter' successfully
+
+2023-07-03 17:45:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Click Kesehatan Category Filter: Test Cases/Pages/Homepage/Category Filter Button/Click Kesehatan Category Filter
+
+2023-07-03 17:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")): Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clicked on
+
+2023-07-03 17:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is clicked on
+
+2023-07-03 17:45:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Click Kesehatan Category Filter' successfully
+
+2023-07-03 17:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Category Filter Button/Verify First Product Card Category"), ["textExpected":getText(findTestObject("Homepage/Kategori Filter/a_Filter Kesehatan")), "isRegex":false], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/Kategori Filter/a_Filter Kesehatan' is: 'Kesehatan'
+
+2023-07-03 17:45:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category: Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category
+
+2023-07-03 17:45:31 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/p_First Product Card Category")), textExpected, isRegex): Actual text 'Kesehatan' and expected text 'Kesehatan' are matched 
+
+2023-07-03 17:45:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/p_First Product Card Category' is: 'Kesehatan'
+
+2023-07-03 17:45:32 - [MESSAGE][PASSED] - Actual text 'Kesehatan' and expected text 'Kesehatan' are matched 
+
+2023-07-03 17:45:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Category Filter Button/Verify First Product Card Category' successfully
+
+2023-07-03 17:45:32 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:32 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category | PASSED
+
+2023-07-03 17:45:32 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category | PASSED
+
+2023-07-03 17:45:32 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:44:32 - [TEST_SUITE][PASSED] - Feature Category Filter - Positive Case: Test Cases/Step Definition/Feature Product Category Filter/CAT06 - User See Kesehatan Product Category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

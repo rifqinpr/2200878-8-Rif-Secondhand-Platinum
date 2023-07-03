@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Pesanan Saya - Positive Case" time="29.507" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Pesanan Saya - Positive Case" tests="1" failures="0" errors="0" time="29.507" skipped="0" timestamp="2023-07-03 19:25:46" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Pesanan Saya - Positive Case">
+      <properties>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192530\\Feature Pesanan Saya - Positive Case\\20230703_192530"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192530\\Feature Pesanan Saya - Positive Case\\20230703_192530\\appium.log, E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192530\\Feature Pesanan Saya - Positive Case\\20230703_192530\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX1921"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="fd03a52e"/>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya" time="17.8" classname="Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya" status="PASSED">
+         <system-out><![CDATA[2023-07-03 19:25:58 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya
+
+2023-07-03 19:25:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:25:58 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya
+
+2023-07-03 19:25:58 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 19:25:58 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 19:25:58 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 19:26:06 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:26:06 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have Order' successfully
+
+2023-07-03 19:26:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify Already Logged In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:26:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify Already Logged In: Test Cases/Pages/Homepage/Verify Already Logged In
+
+2023-07-03 19:26:06 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:26:08 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:26:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Email"), 1): Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:26:08 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:26:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nama"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:26:08 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:26:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nomor HP"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:26:08 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:26:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:26:09 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:26:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.view.ViewGroup - Logout"), 1): Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:26:09 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:26:09 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 19:26:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 19:26:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:26:10 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have Order' successfully
+
+2023-07-03 19:26:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Pesanan Saya/Verify Account Have Order"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have Order' successfully
+
+2023-07-03 19:26:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Pesanan Saya/Verify Account Have Order: Test Cases/Pages/Pesanan Saya/Verify Account Have Order
+
+2023-07-03 19:26:10 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:11 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Akun/android.widget.TextView - Email"), 0), "peter.rg@gmail.com", false): Actual text 'peter.rg@gmail.com' and expected text 'peter.rg@gmail.com' are matched 
+
+2023-07-03 19:26:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/Akun/android.widget.TextView - Email' is: 'peter.rg@gmail.com'
+
+2023-07-03 19:26:11 - [MESSAGE][PASSED] - Actual text 'peter.rg@gmail.com' and expected text 'peter.rg@gmail.com' are matched 
+
+2023-07-03 19:26:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have Order' successfully
+
+2023-07-03 19:26:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:26:11 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 19:26:12 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:26:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:26:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Pesanan Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Pesanan Saya' successfully
+
+2023-07-03 19:26:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Pesanan Saya: Test Cases/Pages/Akun/Tap Pesanan Saya
+
+2023-07-03 19:26:12 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Pesanan Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Pesanan Saya'
+
+2023-07-03 19:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Pesanan Saya'
+
+2023-07-03 19:26:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Pesanan Saya' successfully
+
+2023-07-03 19:26:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Pesanan Saya/Verify On Pesanan Saya Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify On Pesanan Saya Page' successfully
+
+2023-07-03 19:26:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Pesanan Saya/Verify On Pesanan Saya Page: Test Cases/Pages/Pesanan Saya/Verify On Pesanan Saya Page
+
+2023-07-03 19:26:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Pesanan Saya/android.widget.TextView - Pesanan Saya"), 0): Element 'Object Repository/Pesanan Saya/android.widget.TextView - Pesanan Saya' is visible
+
+2023-07-03 19:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Element 'Object Repository/Pesanan Saya/android.widget.TextView - Pesanan Saya' is visible
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify On Pesanan Saya Page' successfully
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Pesanan Saya/Verify Pesanan Card"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Pesanan Card' successfully
+
+2023-07-03 19:26:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Pesanan Saya/Verify Pesanan Card: Test Cases/Pages/Pesanan Saya/Verify Pesanan Card
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card"), 0): Element 'Object Repository/Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card' is visible
+
+2023-07-03 19:26:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Element 'Object Repository/Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card' is visible
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card"), "clickable", "true", 30): Object 'Object Repository/Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card' has attribute 'clickable' with value 'true'
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Object 'Object Repository/Pesanan Saya/androidx.cardview.widget.CardView - Pesanan and Transaksi Card' has attribute 'clickable' with value 'true'
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - verifyNotMatch(getText(findTestObject("Daftar Jual Saya/android.widget.TextView - Product Name"), 0), "", false): Actual text 'Mouse Rexus G7' and expected text '' are not matched 
+
+2023-07-03 19:26:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Text of element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Product Name' is: 'Mouse Rexus G7'
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Actual text 'Mouse Rexus G7' and expected text '' are not matched 
+
+2023-07-03 19:26:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Pesanan Card' successfully
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya | Status: PASSED
+
+2023-07-03 19:26:15 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya | Status: PASSED
+
+2023-07-03 19:26:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 19:26:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 19:25:46 - [TEST_SUITE][PASSED] - Feature Pesanan Saya - Positive Case: Test Cases/Step Definition/Feature Pesanan Saya/PSN01 - See Pesanan Saya]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

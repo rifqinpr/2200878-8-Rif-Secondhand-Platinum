@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Edit Profile - Positive Case" time="21.122" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Edit Profile - Positive Case" tests="1" failures="0" errors="0" time="21.122" skipped="0" timestamp="2023-07-03 17:29:37" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Edit Profile - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172935\\Feature Edit Profile - Positive Case\\20230703_172935"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172935\\Feature Edit Profile - Positive Case\\20230703_172935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="592514bee6649f7c9128d349fa062dd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid" time="20.955" classname="Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:29:37 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid
+
+2023-07-03 17:29:37 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:29:37 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid
+
+2023-07-03 17:29:37 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid
+
+2023-07-03 17:29:37 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:29:37 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:29:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:29:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:29:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:29:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:29:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:29:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:29:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:29:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:29:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:29:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 17:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email"), email): Text 'group1qatest@mytestmail.net' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:29:44 - [MESSAGE][PASSED] - Text 'group1qatest@mytestmail.net' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:29:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:29:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:29:44 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 17:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), password): Text 'abc!12345' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:29:44 - [MESSAGE][PASSED] - Text 'abc!12345' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:29:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:29:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:29:44 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Click Button Masuk: Test Cases/Pages/Login/Click Button Masuk
+
+2023-07-03 17:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:29:45 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-07-03 17:29:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-03 17:29:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:29:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Profile Icon Navbar"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Profile Icon Navbar' successfully
+
+2023-07-03 17:29:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Profile Icon Navbar: Test Cases/Pages/Homepage/Click Profile Icon Navbar
+
+2023-07-03 17:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Profil Saya Icon")): Object: 'Object Repository/Navbar/a_Profil Saya Icon' is clicked on
+
+2023-07-03 17:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Profil Saya Icon' is clicked on
+
+2023-07-03 17:29:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Profile Icon Navbar' successfully
+
+2023-07-03 17:29:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Profile Account"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Profile Account' successfully
+
+2023-07-03 17:29:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Profile Account: Test Cases/Pages/Homepage/Click Profile Account
+
+2023-07-03 17:29:46 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Profil")): Object: 'Object Repository/Navbar/a_Profil' is clicked on
+
+2023-07-03 17:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Profil' is clicked on
+
+2023-07-03 17:29:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Profile Account' successfully
+
+2023-07-03 17:29:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Upload Image"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Upload Image' successfully
+
+2023-07-03 17:29:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Upload Image: Test Cases/Pages/Profile/Upload Image
+
+2023-07-03 17:29:47 - [TEST_STEP][PASSED] - uploadFile(findTestObject("User Profile/input_Avatar"), System.getProperty("user.dir") + "\Data Files\ImageForTest\imgp.jpeg"): File 'E:\GitRepo\Katalon\binarqa-group1-web\Data Files\ImageForTest\imgp.jpeg' sent to object: 'Object Repository/User Profile/input_Avatar'
+
+2023-07-03 17:29:47 - [MESSAGE][PASSED] - File 'E:\GitRepo\Katalon\binarqa-group1-web\Data Files\ImageForTest\imgp.jpeg' sent to object: 'Object Repository/User Profile/input_Avatar'
+
+2023-07-03 17:29:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Upload Image' successfully
+
+2023-07-03 17:29:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Input Nama"), ["nama":"Group1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Input Nama' successfully
+
+2023-07-03 17:29:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Input Nama: Test Cases/Pages/Profile/Input Nama
+
+2023-07-03 17:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("User Profile/input_Nama"), nama): Text 'Group1' is set on object 'Object Repository/User Profile/input_Nama'
+
+2023-07-03 17:29:48 - [MESSAGE][PASSED] - Text 'Group1' is set on object 'Object Repository/User Profile/input_Nama'
+
+2023-07-03 17:29:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Input Nama' successfully
+
+2023-07-03 17:29:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Set Kota"), ["kota":"Jakarta"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Set Kota' successfully
+
+2023-07-03 17:29:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Set Kota: Test Cases/Pages/Profile/Set Kota
+
+2023-07-03 17:29:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("User Profile/select_Pilih Kota"), kota, false): All options with label 'Jakarta' are selected in object 'Object Repository/User Profile/select_Pilih Kota' 
+
+2023-07-03 17:29:49 - [MESSAGE][PASSED] - All options with label 'Jakarta' are selected in object 'Object Repository/User Profile/select_Pilih Kota' 
+
+2023-07-03 17:29:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Set Kota' successfully
+
+2023-07-03 17:29:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Input Alamat"), ["alamat":"Jl. Kenangan"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Input Alamat' successfully
+
+2023-07-03 17:29:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Input Alamat: Test Cases/Pages/Profile/Input Alamat
+
+2023-07-03 17:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("User Profile/textarea_Alamat"), alamat): Text 'Jl. Kenangan' is set on object 'Object Repository/User Profile/textarea_Alamat'
+
+2023-07-03 17:29:50 - [MESSAGE][PASSED] - Text 'Jl. Kenangan' is set on object 'Object Repository/User Profile/textarea_Alamat'
+
+2023-07-03 17:29:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Input Alamat' successfully
+
+2023-07-03 17:29:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Input No Handphone"), ["noHP":"0843434343"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Input No Handphone' successfully
+
+2023-07-03 17:29:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Input No Handphone: Test Cases/Pages/Profile/Input No Handphone
+
+2023-07-03 17:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("User Profile/input_No Handphone"), noHP): Text '0843434343' is set on object 'Object Repository/User Profile/input_No Handphone'
+
+2023-07-03 17:29:50 - [MESSAGE][PASSED] - Text '0843434343' is set on object 'Object Repository/User Profile/input_No Handphone'
+
+2023-07-03 17:29:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Input No Handphone' successfully
+
+2023-07-03 17:29:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Verify Image Filled"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Verify Image Filled' successfully
+
+2023-07-03 17:29:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Verify Image Filled: Test Cases/Pages/Profile/Verify Image Filled
+
+2023-07-03 17:29:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("User Profile/img_Avatar Blob"), 3): Object 'Object Repository/User Profile/img_Avatar Blob' is present
+
+2023-07-03 17:29:51 - [MESSAGE][PASSED] - Object 'Object Repository/User Profile/img_Avatar Blob' is present
+
+2023-07-03 17:29:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Verify Image Filled' successfully
+
+2023-07-03 17:29:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Click Button Simpan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Click Button Simpan' successfully
+
+2023-07-03 17:29:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Click Button Simpan: Test Cases/Pages/Profile/Click Button Simpan
+
+2023-07-03 17:29:51 - [TEST_STEP][PASSED] - click(findTestObject("User Profile/button_simpan")): Object: 'Object Repository/User Profile/button_simpan' is clicked on
+
+2023-07-03 17:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/User Profile/button_simpan' is clicked on
+
+2023-07-03 17:29:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Click Button Simpan' successfully
+
+2023-07-03 17:29:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Profile/Verify Success Edit Profile"), ["nama":"Group1"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Profile/Verify Success Edit Profile' successfully
+
+2023-07-03 17:29:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Profile/Verify Success Edit Profile: Test Cases/Pages/Profile/Verify Success Edit Profile
+
+2023-07-03 17:29:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Homepage/a_Button Jual"), 30): Object 'Object Repository/Homepage/a_Button Jual' is visible
+
+2023-07-03 17:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/a_Button Jual' is visible
+
+2023-07-03 17:29:56 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://secondhand.binaracademy.org/", false): Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-07-03 17:29:56 - [MESSAGE][PASSED] - Current window's url is: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:29:56 - [MESSAGE][PASSED] - Actual text 'https://secondhand.binaracademy.org/' and expected text 'https://secondhand.binaracademy.org/' are matched 
+
+2023-07-03 17:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Profil Saya Icon")): Object: 'Object Repository/Navbar/a_Profil Saya Icon' is clicked on
+
+2023-07-03 17:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Profil Saya Icon' is clicked on
+
+2023-07-03 17:29:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/div_Nama Akun")): Object 'Object Repository/Navbar/div_Nama Akun' is visible
+
+2023-07-03 17:29:57 - [MESSAGE][PASSED] - Object 'Object Repository/Navbar/div_Nama Akun' is visible
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - nama = getText(findTestObject("Navbar/div_Nama Akun")): Text of object 'Object Repository/Navbar/div_Nama Akun' is: 'Group1'
+
+2023-07-03 17:29:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Navbar/div_Nama Akun' is: 'Group1'
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - expected = nama: null
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - verifyMatch(nama, expected, false): Actual text 'Group1' and expected text 'Group1' are matched 
+
+2023-07-03 17:29:57 - [MESSAGE][PASSED] - Actual text 'Group1' and expected text 'Group1' are matched 
+
+2023-07-03 17:29:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Profile/Verify Success Edit Profile' successfully
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid | PASSED
+
+2023-07-03 17:29:57 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid | PASSED
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:29:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:29:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:29:37 - [TEST_SUITE][PASSED] - Feature Edit Profile - Positive Case: Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

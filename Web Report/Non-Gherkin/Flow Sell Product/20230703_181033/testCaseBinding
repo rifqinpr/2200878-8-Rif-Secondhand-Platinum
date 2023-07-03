@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials","testCaseId":"Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials","testCaseId":"Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials","iterationVariableName":""}
+{"testCaseName":"Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid","testCaseId":"Test Cases/Step Definition/Feature User Profile/USR01 - Edit profile with input valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/Step Definition/Feature Add Product/ADDP01 - Add Product with Valid Input","testCaseId":"Test Cases/Step Definition/Feature Add Product/ADDP01 - Add Product with Valid Input","iterationVariableName":""}
+{"testCaseName":"Test Cases/Step Definition/Feature Edit Product/EDP01 - Edit Product with Valid Data","testCaseId":"Test Cases/Step Definition/Feature Edit Product/EDP01 - Edit Product with Valid Data","iterationVariableName":""}
+{"testCaseName":"Test Cases/Step Definition/Feature Delete Product/DP01 - Delete Product","testCaseId":"Test Cases/Step Definition/Feature Delete Product/DP01 - Delete Product","iterationVariableName":""}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Transaksi List - Negative Case" time="29.231" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Transaksi List - Negative Case" tests="1" failures="0" errors="0" time="29.231" skipped="0" timestamp="2023-07-03 19:27:54" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Transaksi List - Negative Case">
+      <properties>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192742\\Feature Transaksi List - Negative Case\\20230703_192742"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192742\\Feature Transaksi List - Negative Case\\20230703_192742\\appium.log, E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_192742\\Feature Transaksi List - Negative Case\\20230703_192742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX1921"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="fd03a52e"/>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made" time="17.593" classname="Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made" status="PASSED">
+         <system-out><![CDATA[2023-07-03 19:28:06 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made
+
+2023-07-03 19:28:06 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:28:06 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made
+
+2023-07-03 19:28:06 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 19:28:06 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 19:28:06 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 19:28:13 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:28:13 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have No Order' successfully
+
+2023-07-03 19:28:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify Already Logged In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:28:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify Already Logged In: Test Cases/Pages/Homepage/Verify Already Logged In
+
+2023-07-03 19:28:13 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:28:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:28:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:28:15 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:28:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Email"), 1): Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:28:15 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:28:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nama"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:28:15 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:28:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nomor HP"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:28:16 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:28:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:28:16 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:28:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.view.ViewGroup - Logout"), 1): Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:28:16 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:28:16 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 19:28:19 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 19:28:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:28:19 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have No Order' successfully
+
+2023-07-03 19:28:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Pesanan Saya/Verify Account Have No Order"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have No Order' successfully
+
+2023-07-03 19:28:19 - [TEST_CASE][PASSED] - Test Cases/Pages/Pesanan Saya/Verify Account Have No Order: Test Cases/Pages/Pesanan Saya/Verify Account Have No Order
+
+2023-07-03 19:28:19 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:28:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:28:19 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Akun/android.widget.TextView - Email"), 0), "qatest@mytestmail.net", false): Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:28:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:20 - [MESSAGE][PASSED] - Text of element 'Object Repository/Akun/android.widget.TextView - Email' is: 'qatest@mytestmail.net'
+
+2023-07-03 19:28:20 - [MESSAGE][PASSED] - Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:28:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify Account Have No Order' successfully
+
+2023-07-03 19:28:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Transaksi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Transaksi' successfully
+
+2023-07-03 19:28:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Transaksi: Test Cases/Pages/Navbar/Tap Transaksi
+
+2023-07-03 19:28:20 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Transaksi"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi'
+
+2023-07-03 19:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi'
+
+2023-07-03 19:28:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Transaksi' successfully
+
+2023-07-03 19:28:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Transaksi/Verify On Transaksi Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Transaksi/Verify On Transaksi Page' successfully
+
+2023-07-03 19:28:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Transaksi/Verify On Transaksi Page: Test Cases/Pages/Transaksi/Verify On Transaksi Page
+
+2023-07-03 19:28:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Transaksi/android.widget.TextView - Transaksi"), 0): Element 'Object Repository/Transaksi/android.widget.TextView - Transaksi' is visible
+
+2023-07-03 19:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:22 - [MESSAGE][PASSED] - Element 'Object Repository/Transaksi/android.widget.TextView - Transaksi' is visible
+
+2023-07-03 19:28:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Transaksi/Verify On Transaksi Page' successfully
+
+2023-07-03 19:28:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Pesanan Saya/Verify No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify No Product' successfully
+
+2023-07-03 19:28:22 - [TEST_CASE][PASSED] - Test Cases/Pages/Pesanan Saya/Verify No Product: Test Cases/Pages/Pesanan Saya/Verify No Product
+
+2023-07-03 19:28:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.ImageView - Image No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:28:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:23 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:28:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Text No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:28:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:28:23 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:28:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Pesanan Saya/Verify No Product' successfully
+
+2023-07-03 19:28:23 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 19:28:23 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made | Status: PASSED
+
+2023-07-03 19:28:23 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made | Status: PASSED
+
+2023-07-03 19:28:23 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 19:28:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 19:27:54 - [TEST_SUITE][PASSED] - Feature Transaksi List - Negative Case: Test Cases/Step Definition/Feature Transaksi/TRS02 - See Transaksi When No Transaction Made]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

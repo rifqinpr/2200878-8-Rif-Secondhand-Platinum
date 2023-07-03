@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Daftar Jual Saya - Negative Case" time="89.631" tests="3" failures="0" errors="0">
+   <testsuite name="Feature Daftar Jual Saya - Negative Case" tests="3" failures="0" errors="0" time="89.631" skipped="0" timestamp="2023-07-03 19:17:29" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Daftar Jual Saya - Negative Case">
+      <properties>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_191714\\Feature Daftar Jual Saya - Negative Case\\20230703_191714"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_191714\\Feature Daftar Jual Saya - Negative Case\\20230703_191714\\appium.log, E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_191714\\Feature Daftar Jual Saya - Negative Case\\20230703_191714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX1921"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="fd03a52e"/>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product" time="24.602" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 19:17:40 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product
+
+2023-07-03 19:17:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:17:40 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product
+
+2023-07-03 19:17:40 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 19:17:40 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 19:17:40 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 19:17:48 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:17:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify on Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:17:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify on Homepage: Test Cases/Pages/Homepage/Verify on Homepage
+
+2023-07-03 19:17:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:17:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:50 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:17:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Notifikasi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:50 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:17:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Transaksi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:17:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:51 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:17:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:51 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:17:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.ImageButton - FAB Add Product"), 0): Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:17:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:52 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:17:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:52 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:17:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/androidx.cardview.widget.CardView - Category"), 0): Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:17:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:52 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:17:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:17:52 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:17:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify Already Logged In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:17:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify Already Logged In: Test Cases/Pages/Homepage/Verify Already Logged In
+
+2023-07-03 19:17:53 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:17:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Email"), 1): Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nama"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:17:54 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:17:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nomor HP"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:17:55 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:17:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:17:55 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:17:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.view.ViewGroup - Logout"), 1): Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:17:55 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:17:55 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 19:17:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 19:17:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:17:58 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:17:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Account No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:17:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Account No Product: Test Cases/Pages/Daftar Jual Saya/Verify Account No Product
+
+2023-07-03 19:17:58 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:17:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:17:59 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Akun/android.widget.TextView - Email"), 0), "qatest@mytestmail.net", false): Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:17:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/Akun/android.widget.TextView - Email' is: 'qatest@mytestmail.net'
+
+2023-07-03 19:17:59 - [MESSAGE][PASSED] - Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:17:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:17:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:17:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 19:17:59 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:18:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 19:18:00 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:02 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page: Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page
+
+2023-07-03 19:18:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Produk"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:03 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Produk' successfully
+
+2023-07-03 19:18:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Produk: Test Cases/Pages/Daftar Jual Saya/Tap Tab Produk
+
+2023-07-03 19:18:03 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Produk"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk'
+
+2023-07-03 19:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk'
+
+2023-07-03 19:18:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Produk' successfully
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify No Product: Test Cases/Pages/Daftar Jual Saya/Verify No Product
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.ImageView - Image No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:04 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Text No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:04 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product | Status: PASSED
+
+2023-07-03 19:18:04 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS02 - See Daftar Jual Saya Product List - No Product | Status: PASSED
+
+2023-07-03 19:18:04 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 19:18:05 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product" time="25.47" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 19:18:05 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product
+
+2023-07-03 19:18:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:05 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product
+
+2023-07-03 19:18:05 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 19:18:05 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 19:18:05 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 19:18:06 - [MESSAGE][INFO] - Appium server started on port 54,536
+
+2023-07-03 19:18:14 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify on Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:18:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify on Homepage: Test Cases/Pages/Homepage/Verify on Homepage
+
+2023-07-03 19:18:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:15 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:18:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Notifikasi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:15 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:18:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Transaksi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:18:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:16 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:18:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:16 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:18:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.ImageButton - FAB Add Product"), 0): Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:16 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:18:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:17 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:18:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/androidx.cardview.widget.CardView - Category"), 0): Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:17 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:18:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:18:17 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify Already Logged In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:18:17 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify Already Logged In: Test Cases/Pages/Homepage/Verify Already Logged In
+
+2023-07-03 19:18:17 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:19 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Email"), 1): Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:18:19 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:18:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nama"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:18:19 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:18:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nomor HP"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:18:20 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:18:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:21 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.view.ViewGroup - Logout"), 1): Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:18:21 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:18:21 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 19:18:23 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 19:18:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:18:23 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Account No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Account No Product: Test Cases/Pages/Daftar Jual Saya/Verify Account No Product
+
+2023-07-03 19:18:24 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:24 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Akun/android.widget.TextView - Email"), 0), "qatest@mytestmail.net", false): Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Akun/android.widget.TextView - Email' is: 'qatest@mytestmail.net'
+
+2023-07-03 19:18:26 - [MESSAGE][PASSED] - Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:18:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:18:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 19:18:26 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:18:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 19:18:26 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:27 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page: Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page
+
+2023-07-03 19:18:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Produk"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 19:18:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 19:18:28 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 19:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 19:18:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 19:18:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify No Product: Test Cases/Pages/Daftar Jual Saya/Verify No Product
+
+2023-07-03 19:18:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.ImageView - Image No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:30 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Text No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:30 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product | Status: PASSED
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS04 - See Diminati List - No Product | Status: PASSED
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 19:18:30 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product" time="28.051" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 19:18:30 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 19:18:30 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 19:18:30 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 19:18:31 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 19:18:32 - [MESSAGE][INFO] - Appium server started on port 54,675
+
+2023-07-03 19:18:40 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 19:18:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify on Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:18:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify on Homepage: Test Cases/Pages/Homepage/Verify on Homepage
+
+2023-07-03 19:18:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:41 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda' is visible
+
+2023-07-03 19:18:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Notifikasi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:18:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:42 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Notifikasi' is visible
+
+2023-07-03 19:18:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Transaksi"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:42 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Transaksi' is visible
+
+2023-07-03 19:18:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:42 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun' is visible
+
+2023-07-03 19:18:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/android.widget.ImageButton - FAB Add Product"), 0): Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:43 - [MESSAGE][PASSED] - Element 'Object Repository/Navbar/android.widget.ImageButton - FAB Add Product' is visible
+
+2023-07-03 19:18:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:43 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/android.widget.EditText - Search Field' is visible
+
+2023-07-03 19:18:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/androidx.cardview.widget.CardView - Category"), 0): Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:43 - [MESSAGE][PASSED] - Element 'Object Repository/Homepage/androidx.cardview.widget.CardView - Category' is visible
+
+2023-07-03 19:18:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify on Homepage' successfully
+
+2023-07-03 19:18:43 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify Already Logged In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:18:43 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify Already Logged In: Test Cases/Pages/Homepage/Verify Already Logged In
+
+2023-07-03 19:18:43 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:45 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Email"), 1): Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:18:46 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Email' is visible
+
+2023-07-03 19:18:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nama"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:18:46 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nama' is visible
+
+2023-07-03 19:18:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.TextView - Nomor HP"), 1): Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:18:46 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.TextView - Nomor HP' is visible
+
+2023-07-03 19:18:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.widget.ImageView - Profile Photo"), 1): Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:46 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.widget.ImageView - Profile Photo' is visible
+
+2023-07-03 19:18:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Akun/android.view.ViewGroup - Logout"), 1): Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:18:47 - [MESSAGE][PASSED] - Element 'Object Repository/Akun/android.view.ViewGroup - Logout' is visible
+
+2023-07-03 19:18:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 19:18:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 19:18:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify Already Logged In' successfully
+
+2023-07-03 19:18:50 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Account No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Account No Product: Test Cases/Pages/Daftar Jual Saya/Verify Account No Product
+
+2023-07-03 19:18:50 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:51 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Akun/android.widget.TextView - Email"), 0), "qatest@mytestmail.net", false): Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/Akun/android.widget.TextView - Email' is: 'qatest@mytestmail.net'
+
+2023-07-03 19:18:51 - [MESSAGE][PASSED] - Actual text 'qatest@mytestmail.net' and expected text 'qatest@mytestmail.net' are matched 
+
+2023-07-03 19:18:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Account No Product' successfully
+
+2023-07-03 19:18:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:18:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 19:18:51 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 19:18:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 19:18:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 19:18:52 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 19:18:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 19:18:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page: Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page
+
+2023-07-03 19:18:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:54 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Title Text Daftar Jual Saya' is visible
+
+2023-07-03 19:18:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Produk"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:54 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Produk' is visible
+
+2023-07-03 19:18:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:54 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati' is visible
+
+2023-07-03 19:18:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:55 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual' is visible
+
+2023-07-03 19:18:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify In Daftar Jual Saya Page' successfully
+
+2023-07-03 19:18:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Terjual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Terjual' successfully
+
+2023-07-03 19:18:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Terjual: Test Cases/Pages/Daftar Jual Saya/Tap Tab Terjual
+
+2023-07-03 19:18:55 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual'
+
+2023-07-03 19:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Terjual'
+
+2023-07-03 19:18:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Terjual' successfully
+
+2023-07-03 19:18:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify No Product"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify No Product: Test Cases/Pages/Daftar Jual Saya/Verify No Product
+
+2023-07-03 19:18:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.ImageView - Image No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:58 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.ImageView - Image No Product' is visible
+
+2023-07-03 19:18:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/android.widget.TextView - Text No Product"), 0): Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 19:18:58 - [MESSAGE][PASSED] - Element 'Object Repository/Daftar Jual Saya/android.widget.TextView - Text No Product' is visible
+
+2023-07-03 19:18:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify No Product' successfully
+
+2023-07-03 19:18:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 19:18:58 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product | Status: PASSED
+
+2023-07-03 19:18:58 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product | Status: PASSED
+
+2023-07-03 19:18:58 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 19:18:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 19:17:29 - [TEST_SUITE][PASSED] - Feature Daftar Jual Saya - Negative Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS06 - See Terjual List - No Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

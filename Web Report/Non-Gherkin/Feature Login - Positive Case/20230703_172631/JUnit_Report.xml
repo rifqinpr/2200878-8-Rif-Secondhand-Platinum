@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Login - Positive Case" time="11.065" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Login - Positive Case" tests="1" failures="0" errors="0" time="11.065" skipped="0" timestamp="2023-07-03 17:26:33" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Login - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172631\\Feature Login - Positive Case\\20230703_172631"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172631\\Feature Login - Positive Case\\20230703_172631\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="18c98cbe5bf02c539a7ec17a03292602"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials" time="10.892" classname="Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:26:33 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials
+
+2023-07-03 17:26:33 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:26:33 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials
+
+2023-07-03 17:26:33 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials
+
+2023-07-03 17:26:33 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:26:33 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:26:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:26:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:26:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:26:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:26:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:26:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:26:39 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:26:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:26:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":email], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:26:39 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 17:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email"), email): Text 'group1qatest@mytestmail.net' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:26:40 - [MESSAGE][PASSED] - Text 'group1qatest@mytestmail.net' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:26:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:26:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 17:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), password): Text 'abc!12345' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:26:41 - [MESSAGE][PASSED] - Text 'abc!12345' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:26:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:26:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:26:41 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Click Button Masuk: Test Cases/Pages/Login/Click Button Masuk
+
+2023-07-03 17:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:26:42 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-07-03 17:26:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-03 17:26:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:26:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Verify Login Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Verify Login Valid' successfully
+
+2023-07-03 17:26:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Verify Login Valid: Test Cases/Pages/Login/Verify Login Valid
+
+2023-07-03 17:26:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/a_Profil Saya Icon")): Object 'Object Repository/Navbar/a_Profil Saya Icon' is visible
+
+2023-07-03 17:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Navbar/a_Profil Saya Icon' is visible
+
+2023-07-03 17:26:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Verify Login Valid' successfully
+
+2023-07-03 17:26:43 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:26:43 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials | PASSED
+
+2023-07-03 17:26:43 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials | PASSED
+
+2023-07-03 17:26:43 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:26:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:26:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:26:33 - [TEST_SUITE][PASSED] - Feature Login - Positive Case: Test Cases/Step Definition/Feature Login/LGN01 - User login with valid credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Daftar Jual Saya - Positive Case" time="33.896" tests="3" failures="0" errors="0">
+   <testsuite name="Feature Daftar Jual Saya - Positive Case" tests="3" failures="0" errors="0" time="33.896" skipped="0" timestamp="2023-07-03 17:46:15" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Daftar Jual Saya - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174613\\Feature Daftar Jual Saya - Positive Case\\20230703_174613"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174613\\Feature Daftar Jual Saya - Positive Case\\20230703_174613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="5a8bf6789eee6429524f48ce4bf49eae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya" time="11.514" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:46:15 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya
+
+2023-07-03 17:46:15 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:46:15 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya
+
+2023-07-03 17:46:15 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya
+
+2023-07-03 17:46:15 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:46:15 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:46:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:46:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:46:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:46:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"tukangjuallaptop@mail.mail"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:19 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 17:46:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email"), email): Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:20 - [MESSAGE][PASSED] - Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 17:46:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), password): Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:20 - [MESSAGE][PASSED] - Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Click Button Masuk: Test Cases/Pages/Login/Click Button Masuk
+
+2023-07-03 17:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:21 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-07-03 17:46:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-03 17:46:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Product List Icon"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Product List Icon: Test Cases/Pages/Daftar Jual Saya/Click Product List Icon
+
+2023-07-03 17:46:21 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Produk Saya Icon")): Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:23 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Content: Test Cases/Pages/Daftar Jual Saya/Verify Content
+
+2023-07-03 17:46:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/h3_DaftarJualSaya")): Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:23 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_SemuaProduk")): Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Diminati")): Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Terjual")): Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:24 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Semua Produk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Semua Produk' successfully
+
+2023-07-03 17:46:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Semua Produk: Test Cases/Pages/Daftar Jual Saya/Click Semua Produk
+
+2023-07-03 17:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Daftar Jual Saya/a_SemuaProduk")): Object: 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is clicked on
+
+2023-07-03 17:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is clicked on
+
+2023-07-03 17:46:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Semua Produk' successfully
+
+2023-07-03 17:46:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Product Exists"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Product Exists: Test Cases/Pages/Daftar Jual Saya/Verify Product Exists
+
+2023-07-03 17:46:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Daftar Jual Saya/div_ProductCard"), 0): Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 17:46:26 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya | PASSED
+
+2023-07-03 17:46:26 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS01 - See Daftar Jual Saya | PASSED
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:46:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati" time="11.413" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:46:26 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati
+
+2023-07-03 17:46:26 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:46:26 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:46:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:46:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:46:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:46:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"tukangjuallaptop@mail.mail"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 17:46:30 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email"), email): Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:31 - [MESSAGE][PASSED] - Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 17:46:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), password): Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:32 - [MESSAGE][PASSED] - Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:32 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Click Button Masuk: Test Cases/Pages/Login/Click Button Masuk
+
+2023-07-03 17:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-07-03 17:46:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-03 17:46:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Product List Icon"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:32 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Product List Icon: Test Cases/Pages/Daftar Jual Saya/Click Product List Icon
+
+2023-07-03 17:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Produk Saya Icon")): Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:34 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Content: Test Cases/Pages/Daftar Jual Saya/Verify Content
+
+2023-07-03 17:46:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/h3_DaftarJualSaya")): Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_SemuaProduk")): Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Diminati")): Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:35 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Terjual")): Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Diminati' successfully
+
+2023-07-03 17:46:36 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Diminati: Test Cases/Pages/Daftar Jual Saya/Click Diminati
+
+2023-07-03 17:46:36 - [TEST_STEP][PASSED] - click(findTestObject("Daftar Jual Saya/a_Diminati")): Object: 'Object Repository/Daftar Jual Saya/a_Diminati' is clicked on
+
+2023-07-03 17:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar Jual Saya/a_Diminati' is clicked on
+
+2023-07-03 17:46:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Diminati' successfully
+
+2023-07-03 17:46:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Product Exists"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:36 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Product Exists: Test Cases/Pages/Daftar Jual Saya/Verify Product Exists
+
+2023-07-03 17:46:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Daftar Jual Saya/div_ProductCard"), 0): Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 17:46:37 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:37 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:46:37 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati | PASSED
+
+2023-07-03 17:46:37 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS03 - See Diminati | PASSED
+
+2023-07-03 17:46:37 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:46:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:46:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual" time="10.797" classname="Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:46:38 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual
+
+2023-07-03 17:46:38 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:46:38 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual
+
+2023-07-03 17:46:38 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual
+
+2023-07-03 17:46:38 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:46:38 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:46:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:46:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:46:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:46:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:40 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:46:40 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:46:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:46:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"tukangjuallaptop@mail.mail"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:41 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 17:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Email"), email): Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:42 - [MESSAGE][PASSED] - Text 'tukangjuallaptop@mail.mail' is set on object 'Object Repository/Login/input_Email'
+
+2023-07-03 17:46:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 17:46:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 17:46:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Password"), password): Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:43 - [MESSAGE][PASSED] - Text 'a1b2c3d4' is set on object 'Object Repository/Login/input_Password'
+
+2023-07-03 17:46:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 17:46:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Click Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:43 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Click Button Masuk: Test Cases/Pages/Login/Click Button Masuk
+
+2023-07-03 17:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Masuk")): Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Masuk' is clicked on
+
+2023-07-03 17:46:43 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-07-03 17:46:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-07-03 17:46:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Click Button Masuk' successfully
+
+2023-07-03 17:46:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Product List Icon"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:43 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Product List Icon: Test Cases/Pages/Daftar Jual Saya/Click Product List Icon
+
+2023-07-03 17:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Produk Saya Icon")): Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Produk Saya Icon' is clicked on
+
+2023-07-03 17:46:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Product List Icon' successfully
+
+2023-07-03 17:46:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Content"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Content: Test Cases/Pages/Daftar Jual Saya/Verify Content
+
+2023-07-03 17:46:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/h3_DaftarJualSaya")): Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:46 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/h3_DaftarJualSaya' is visible
+
+2023-07-03 17:46:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_SemuaProduk")): Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:46 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_SemuaProduk' is visible
+
+2023-07-03 17:46:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Diminati")): Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:46 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Diminati' is visible
+
+2023-07-03 17:46:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Daftar Jual Saya/a_Terjual")): Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:47 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/a_Terjual' is visible
+
+2023-07-03 17:46:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Content' successfully
+
+2023-07-03 17:46:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Click Terjual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Terjual' successfully
+
+2023-07-03 17:46:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Click Terjual: Test Cases/Pages/Daftar Jual Saya/Click Terjual
+
+2023-07-03 17:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Daftar Jual Saya/a_Terjual")): Object: 'Object Repository/Daftar Jual Saya/a_Terjual' is clicked on
+
+2023-07-03 17:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar Jual Saya/a_Terjual' is clicked on
+
+2023-07-03 17:46:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Click Terjual' successfully
+
+2023-07-03 17:46:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Verify Product Exists"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Verify Product Exists: Test Cases/Pages/Daftar Jual Saya/Verify Product Exists
+
+2023-07-03 17:46:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Daftar Jual Saya/div_ProductCard"), 0): Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 17:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/Daftar Jual Saya/div_ProductCard' is present
+
+2023-07-03 17:46:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Verify Product Exists' successfully
+
+2023-07-03 17:46:48 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:46:48 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual | PASSED
+
+2023-07-03 17:46:48 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual | PASSED
+
+2023-07-03 17:46:48 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:46:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:46:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:46:15 - [TEST_SUITE][PASSED] - Feature Daftar Jual Saya - Positive Case: Test Cases/Step Definition/Feature Daftar Jual Saya/DJS05 - See Terjual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

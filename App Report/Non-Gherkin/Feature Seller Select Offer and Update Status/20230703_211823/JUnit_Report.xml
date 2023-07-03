@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Seller Select Offer and Update Status" time="436.505" tests="8" failures="0" errors="0">
+   <testsuite name="Feature Seller Select Offer and Update Status" tests="8" failures="0" errors="0" time="436.505" skipped="0" timestamp="2023-07-03 21:18:39" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Seller Select Offer and Update Status">
+      <properties>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_211823\\Feature Seller Select Offer and Update Status\\20230703_211823"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_211823\\Feature Seller Select Offer and Update Status\\20230703_211823\\appium.log, E:\\GitRepo\\Katalon\\binarqa-group1-app\\Reports\\20230703_211823\\Feature Seller Select Offer and Update Status\\20230703_211823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX1921"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="fd03a52e"/>
+         <property name="deviceName" value="realme RMX1921 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid" time="66.467" classname="Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:18:51 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid: Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid
+
+2023-07-03 21:18:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:18:51 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid
+
+2023-07-03 21:18:51 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:18:51 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:18:51 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:19:00 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:19:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:19:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:19:00 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:19:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:19:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:19:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:19:01 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:19:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:19:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:19:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"alexbeli1@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:19:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'alexbeli1@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:03 - [MESSAGE][PASSED] - Text 'alexbeli1@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:19:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:19:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"asdqwe"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:19:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'asdqwe' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:19:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:05 - [MESSAGE][PASSED] - Text 'asdqwe' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:19:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:19:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:19:05 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:19:05 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:19:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:19:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:19:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Beranda: Test Cases/Pages/Navbar/Tap Beranda
+
+2023-07-03 21:19:06 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:19:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:19:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:19:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Tap Search Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:19:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Tap Search Field: Test Cases/Pages/Homepage/Tap Search Field
+
+2023-07-03 21:19:08 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:19:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:19:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Search Page/Input Text Search Field"), ["searchText":"produk dijual"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:19:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Search Page/Input Text Search Field: Test Cases/Pages/Search Page/Input Text Search Field
+
+2023-07-03 21:19:10 - [TEST_STEP][PASSED] - setText(findTestObject("Search/android.widget.EditText - Text Search Field"), searchText, 0): Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:13 - [MESSAGE][PASSED] - Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:19:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:19:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click First Search"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:19:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click First Search: Test Cases/Pages/Buyer Bid/Click First Search
+
+2023-07-03 21:19:13 - [TEST_STEP][PASSED] - tap(findTestObject("Search/android.view.ViewGroup - First Search Result"), 10): Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:19:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:19:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:19:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:19:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego: Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego
+
+2023-07-03 21:19:24 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego"), 0): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:19:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:19:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Input Harga Tawar"), ["harga":"999999999"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:19:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Input Harga Tawar: Test Cases/Pages/Buyer Bid/Input Harga Tawar
+
+2023-07-03 21:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Product Detail/android.widget.EditText - Input Harga Tawar"), harga, 0): Text '999999999' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Text '999999999' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Kirim Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:19:27 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Kirim Button: Test Cases/Pages/Buyer Bid/Click Kirim Button
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0): Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:19:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-03 21:19:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:19:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:19:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:19:32 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:19:33 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:19:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:19:43 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:19:46 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:19:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:19:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Verify Bid Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:19:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Verify Bid Valid: Test Cases/Pages/Buyer Bid/Verify Bid Valid
+
+2023-07-03 21:19:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Product Detail/android.widget.Button - Menunggu respon penjual"), "Menunggu respon penjual"): Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:19:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:19:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:19:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:19:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:19:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:19:49 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:19:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:19:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:19:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:19:49 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:19:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:19:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:19:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:19:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:19:52 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:19:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:19:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:19:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:19:55 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:19:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:19:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:19:57 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:19:57 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid | Status: PASSED
+
+2023-07-03 21:19:57 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID02 - Bid Invalid | Status: PASSED
+
+2023-07-03 21:19:57 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:19:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer" time="52.806" classname="Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:19:58 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer: Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer
+
+2023-07-03 21:19:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:19:58 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer
+
+2023-07-03 21:19:58 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:19:58 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:19:58 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:19:59 - [MESSAGE][INFO] - Appium server started on port 51,939
+
+2023-07-03 21:20:07 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:20:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:20:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:20:07 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:20:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:20:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:20:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:20:08 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:20:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:20:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"prabotanpreloved@mytestmail.net"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:20:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:20:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:10 - [MESSAGE][PASSED] - Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:20:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:20:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:20:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:20:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:11 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:20:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:20:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:20:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:20:12 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:20:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:20:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 21:20:14 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:20:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:20:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:20:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:20:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 21:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:20:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:20:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click First Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:20:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click First Diminati: Test Cases/Pages/Update Status Seller/Click First Diminati
+
+2023-07-03 21:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.view.ViewGroup - First Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:20:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:20:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Tolak"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Tolak' successfully
+
+2023-07-03 21:20:17 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Tolak: Test Cases/Pages/Update Status Seller/Click Tolak
+
+2023-07-03 21:20:17 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Tolak"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Tolak'
+
+2023-07-03 21:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Tolak'
+
+2023-07-03 21:20:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Tolak' successfully
+
+2023-07-03 21:20:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:20:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:20:18 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:20:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:20:28 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:20:32 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:20:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:20:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Verify Status Tolak Bid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid' successfully
+
+2023-07-03 21:20:32 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid: Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid
+
+2023-07-03 21:20:32 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:20:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:20:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak"), "Penawaran ditolak", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak' are matched.
+
+2023-07-03 21:20:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak' are matched.
+
+2023-07-03 21:20:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid' successfully
+
+2023-07-03 21:20:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:20:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:20:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:20:45 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:20:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:20:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:20:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:20:45 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:20:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:20:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:20:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:20:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:20:48 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:20:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:20:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:20:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:20:50 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:20:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:20:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:20:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:20:50 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:20:50 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer | Status: PASSED
+
+2023-07-03 21:20:50 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/DND01 - Denied Buyer Offer | Status: PASSED
+
+2023-07-03 21:20:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:20:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid" time="64.952" classname="Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:20:51 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid: Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid
+
+2023-07-03 21:20:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:20:51 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid
+
+2023-07-03 21:20:51 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:20:51 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:20:51 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:20:52 - [MESSAGE][INFO] - Appium server started on port 52,111
+
+2023-07-03 21:21:00 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:21:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:21:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:21:00 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:21:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:21:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:21:00 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:21:00 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:21:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:21:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"alexbeli2@gmail.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:21:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:21:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'alexbeli2@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:03 - [MESSAGE][PASSED] - Text 'alexbeli2@gmail.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:21:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:21:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"asdqwe"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:21:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:21:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'asdqwe' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:05 - [MESSAGE][PASSED] - Text 'asdqwe' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:21:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:21:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:21:05 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:21:05 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:21:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:21:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:21:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Beranda: Test Cases/Pages/Navbar/Tap Beranda
+
+2023-07-03 21:21:06 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:21:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:21:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:21:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Tap Search Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:21:09 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Tap Search Field: Test Cases/Pages/Homepage/Tap Search Field
+
+2023-07-03 21:21:09 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:21:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:21:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Search Page/Input Text Search Field"), ["searchText":"produk dijual"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:21:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Search Page/Input Text Search Field: Test Cases/Pages/Search Page/Input Text Search Field
+
+2023-07-03 21:21:10 - [TEST_STEP][PASSED] - setText(findTestObject("Search/android.widget.EditText - Text Search Field"), searchText, 0): Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:21:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:13 - [MESSAGE][PASSED] - Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:21:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:21:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click First Search"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:21:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click First Search: Test Cases/Pages/Buyer Bid/Click First Search
+
+2023-07-03 21:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("Search/android.view.ViewGroup - First Search Result"), 10): Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:21:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:21:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:21:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:21:18 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego: Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego
+
+2023-07-03 21:21:18 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego"), 0): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:21:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:21:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Input Harga Tawar"), ["harga":"2000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:21:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Input Harga Tawar: Test Cases/Pages/Buyer Bid/Input Harga Tawar
+
+2023-07-03 21:21:24 - [TEST_STEP][PASSED] - setText(findTestObject("Product Detail/android.widget.EditText - Input Harga Tawar"), harga, 0): Text '2000' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:26 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:21:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:21:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Kirim Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:21:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Kirim Button: Test Cases/Pages/Buyer Bid/Click Kirim Button
+
+2023-07-03 21:21:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0): Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:27 - [MESSAGE][PASSED] - Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:21:27 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:21:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-03 21:21:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:21:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:21:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:21:33 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:21:33 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:21:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:21:43 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:21:47 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:21:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:21:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Verify Bid Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:21:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Verify Bid Valid: Test Cases/Pages/Buyer Bid/Verify Bid Valid
+
+2023-07-03 21:21:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Product Detail/android.widget.Button - Menunggu respon penjual"), "Menunggu respon penjual"): Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:21:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:21:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:21:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:21:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:21:47 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:21:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:21:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:21:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:21:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:21:50 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:21:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:21:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:21:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:21:52 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:21:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:21:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:21:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:21:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:21:54 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:21:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:21:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:21:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid | Status: PASSED
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID01 - Bid Valid | Status: PASSED
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:21:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer" time="37.591" classname="Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:21:55 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:21:55 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:21:55 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:21:56 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:21:57 - [MESSAGE][INFO] - Appium server started on port 52,279
+
+2023-07-03 21:22:05 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:22:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:05 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:22:05 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:22:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:22:06 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:22:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:22:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"prabotanpreloved@mytestmail.net"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:22:06 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:08 - [MESSAGE][PASSED] - Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:22:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:22:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:22:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:22:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:10 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:22:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:22:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:22:10 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:22:10 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:22:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:22:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:22:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:22:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 21:22:13 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:22:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:22:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:22:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:22:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 21:22:14 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:22:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:22:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:22:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click First Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:22:14 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click First Diminati: Test Cases/Pages/Update Status Seller/Click First Diminati
+
+2023-07-03 21:22:14 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.view.ViewGroup - First Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:22:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:22:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:22:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Terima"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:22:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Terima: Test Cases/Pages/Update Status Seller/Click Terima
+
+2023-07-03 21:22:20 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Terima"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:22:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:22:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Verify Hubungi Via Whatsapp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp' successfully
+
+2023-07-03 21:22:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp: Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp
+
+2023-07-03 21:22:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp"), "Hubungi via Whatsapp"): Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp' are matched.
+
+2023-07-03 21:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp' are matched.
+
+2023-07-03 21:22:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp' successfully
+
+2023-07-03 21:22:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:21 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:22:21 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:22:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:22:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:22:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:22:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:22:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:27 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:22:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:22:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:22:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:22:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:22:29 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:22:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:22:31 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:22:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer | Status: PASSED
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer | Status: PASSED
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:22:33 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi" time="58.387" classname="Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:22:33 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi: Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:22:33 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:22:33 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:22:34 - [MESSAGE][INFO] - Appium server started on port 52,450
+
+2023-07-03 21:22:42 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:22:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:22:42 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:22:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:22:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:22:43 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:22:43 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:22:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:22:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"prabotanpreloved@mytestmail.net"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:22:44 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:22:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:45 - [MESSAGE][PASSED] - Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:22:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:22:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:22:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:22:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:22:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:47 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:22:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:22:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:22:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:22:47 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:22:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:22:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:22:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:22:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 21:22:49 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:22:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:22:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:22:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:22:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 21:22:50 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:22:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:22:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click First Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:22:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click First Diminati: Test Cases/Pages/Update Status Seller/Click First Diminati
+
+2023-07-03 21:22:51 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.view.ViewGroup - First Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:22:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:22:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:22:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Terima"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:22:53 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Terima: Test Cases/Pages/Update Status Seller/Click Terima
+
+2023-07-03 21:22:53 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Terima"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:22:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:22:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:22:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:22:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Back' successfully
+
+2023-07-03 21:22:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Back: Test Cases/Pages/Update Status Seller/Click Back
+
+2023-07-03 21:22:54 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:22:58 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:22:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Back' successfully
+
+2023-07-03 21:22:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:22:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:22:58 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:23:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:23:08 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:23:11 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:23:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:23:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Status"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Status' successfully
+
+2023-07-03 21:23:11 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Status: Test Cases/Pages/Update Status Seller/Click Status
+
+2023-07-03 21:23:11 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Status"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Status'
+
+2023-07-03 21:23:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Status'
+
+2023-07-03 21:23:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Status' successfully
+
+2023-07-03 21:23:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Batalkan transaksi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Batalkan transaksi' successfully
+
+2023-07-03 21:23:11 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Batalkan transaksi: Test Cases/Pages/Update Status Seller/Click Batalkan transaksi
+
+2023-07-03 21:23:12 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.RadioButton - Batalkan transaksi"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.RadioButton - Batalkan transaksi'
+
+2023-07-03 21:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.RadioButton - Batalkan transaksi'
+
+2023-07-03 21:23:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Batalkan transaksi' successfully
+
+2023-07-03 21:23:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Simpan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Simpan' successfully
+
+2023-07-03 21:23:12 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Simpan: Test Cases/Pages/Update Status Seller/Click Simpan
+
+2023-07-03 21:23:12 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Simpan"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Simpan'
+
+2023-07-03 21:23:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Simpan'
+
+2023-07-03 21:23:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Simpan' successfully
+
+2023-07-03 21:23:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Verify Status Tolak Bid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid' successfully
+
+2023-07-03 21:23:13 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid: Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid
+
+2023-07-03 21:23:13 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:23:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:23:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak"), "Penawaran ditolak", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak' are matched.
+
+2023-07-03 21:23:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Penawaran ditolak' are matched.
+
+2023-07-03 21:23:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Status Tolak Bid' successfully
+
+2023-07-03 21:23:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:23:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:23:24 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:23:26 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:23:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:23:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:23:26 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:23:26 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:23:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:23:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:23:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:23:29 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:23:29 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:23:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:23:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:23:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:23:30 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:23:30 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:23:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi | Status: PASSED
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/UPD02 - Seller Update Status to Batalkan Transaksi | Status: PASSED
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:23:31 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/BID - Precond" time="64.533" classname="Test Cases/Step Definition/Feature Bid/BID - Precond" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:23:31 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/BID - Precond: Test Cases/Step Definition/Feature Bid/BID - Precond
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/BID - Precond
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID - Precond
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:23:31 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:23:31 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:23:32 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:23:33 - [MESSAGE][INFO] - Appium server started on port 52,639
+
+2023-07-03 21:23:41 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:23:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:23:41 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:23:41 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:23:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:23:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:23:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"gunawansipembeli@jualbeli.com"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:23:42 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:23:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'gunawansipembeli@jualbeli.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:23:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:44 - [MESSAGE][PASSED] - Text 'gunawansipembeli@jualbeli.com' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:23:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:23:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:23:44 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:23:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:46 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:23:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:23:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:23:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:23:46 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:23:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:23:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:23:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Beranda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:23:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Beranda: Test Cases/Pages/Navbar/Tap Beranda
+
+2023-07-03 21:23:47 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Beranda"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:23:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Beranda'
+
+2023-07-03 21:23:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Beranda' successfully
+
+2023-07-03 21:23:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Tap Search Field"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:23:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Tap Search Field: Test Cases/Pages/Homepage/Tap Search Field
+
+2023-07-03 21:23:48 - [TEST_STEP][PASSED] - tap(findTestObject("Homepage/android.widget.EditText - Search Field"), 0): Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:23:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Homepage/android.widget.EditText - Search Field'
+
+2023-07-03 21:23:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Tap Search Field' successfully
+
+2023-07-03 21:23:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Search Page/Input Text Search Field"), ["searchText":"produk dijual"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:23:50 - [TEST_CASE][PASSED] - Test Cases/Pages/Search Page/Input Text Search Field: Test Cases/Pages/Search Page/Input Text Search Field
+
+2023-07-03 21:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search/android.widget.EditText - Text Search Field"), searchText, 0): Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:23:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:23:52 - [MESSAGE][PASSED] - Text 'produk dijual' has been set to element 'Object Repository/Search/android.widget.EditText - Text Search Field'
+
+2023-07-03 21:23:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Search Page/Input Text Search Field' successfully
+
+2023-07-03 21:23:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click First Search"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:23:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click First Search: Test Cases/Pages/Buyer Bid/Click First Search
+
+2023-07-03 21:23:52 - [TEST_STEP][PASSED] - tap(findTestObject("Search/android.view.ViewGroup - First Search Result"), 10): Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:23:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Search/android.view.ViewGroup - First Search Result'
+
+2023-07-03 21:23:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click First Search' successfully
+
+2023-07-03 21:23:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:23:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego: Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego
+
+2023-07-03 21:23:56 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego"), 0): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:23:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Saya Tertarik dan Ingin Nego'
+
+2023-07-03 21:24:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Saya Tertarik dan Ingin Nego' successfully
+
+2023-07-03 21:24:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Input Harga Tawar"), ["harga":"2000"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:24:07 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Input Harga Tawar: Test Cases/Pages/Buyer Bid/Input Harga Tawar
+
+2023-07-03 21:24:07 - [TEST_STEP][PASSED] - setText(findTestObject("Product Detail/android.widget.EditText - Input Harga Tawar"), harga, 0): Text '2000' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:24:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:08 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Product Detail/android.widget.EditText - Input Harga Tawar'
+
+2023-07-03 21:24:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Input Harga Tawar' successfully
+
+2023-07-03 21:24:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Kirim Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:24:08 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Kirim Button: Test Cases/Pages/Buyer Bid/Click Kirim Button
+
+2023-07-03 21:24:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0): Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:09 - [MESSAGE][PASSED] - Element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego' is present
+
+2023-07-03 21:24:09 - [TEST_STEP][PASSED] - tap(findTestObject("Product Detail/android.widget.Button - Kirim Harga Nego"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Product Detail/android.widget.Button - Kirim Harga Nego'
+
+2023-07-03 21:24:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-03 21:24:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-03 21:24:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Kirim Button' successfully
+
+2023-07-03 21:24:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:24:15 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:24:15 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:24:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:24:25 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:24:28 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:24:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:24:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Verify Bid Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:24:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Verify Bid Valid: Test Cases/Pages/Buyer Bid/Verify Bid Valid
+
+2023-07-03 21:24:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Product Detail/android.widget.Button - Menunggu respon penjual"), "Menunggu respon penjual"): Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:24:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Product Detail/android.widget.Button - Menunggu respon penjual' are matched.
+
+2023-07-03 21:24:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Verify Bid Valid' successfully
+
+2023-07-03 21:24:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:24:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:24:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:24:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:24:31 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:24:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:24:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:24:34 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:24:34 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:24:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:24:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:24:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:24:35 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:24:35 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:24:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/BID - Precond | Status: PASSED
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/BID - Precond | Status: PASSED
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:24:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer" time="30.952" classname="Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:24:36 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:24:36 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:24:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:24:37 - [MESSAGE][INFO] - Appium server started on port 52,812
+
+2023-07-03 21:24:45 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:24:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:24:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:24:45 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:24:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:24:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:24:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:24:46 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:24:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:24:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"prabotanpreloved@mytestmail.net"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:24:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:48 - [MESSAGE][PASSED] - Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:24:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:24:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:24:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:49 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:24:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:24:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:24:49 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:24:49 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:24:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:24:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:24:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:24:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 21:24:51 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:24:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:24:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:24:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 21:24:52 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:24:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:24:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click First Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:24:53 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click First Diminati: Test Cases/Pages/Update Status Seller/Click First Diminati
+
+2023-07-03 21:24:53 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.view.ViewGroup - First Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:24:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:24:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Terima"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:24:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Terima: Test Cases/Pages/Update Status Seller/Click Terima
+
+2023-07-03 21:24:54 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Terima"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:24:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:24:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:24:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:24:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Verify Hubungi Via Whatsapp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp' successfully
+
+2023-07-03 21:24:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp: Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp
+
+2023-07-03 21:24:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp"), "Hubungi via Whatsapp"): Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp' are matched.
+
+2023-07-03 21:24:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Hubungi via Whatsapp' are matched.
+
+2023-07-03 21:24:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Hubungi Via Whatsapp' successfully
+
+2023-07-03 21:24:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:24:56 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:24:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:24:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:24:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:24:59 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:25:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:25:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:01 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:25:01 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:25:04 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:25:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:25:04 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:25:05 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:25:05 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:25:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:25:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer | Status: PASSED
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/ACC01 - Accept Buyer Offer | Status: PASSED
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:25:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual" time="49.016" classname="Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual" status="PASSED">
+         <system-out><![CDATA[2023-07-03 21:25:07 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - launchApp(): null
+
+2023-07-03 21:25:07 - [TEST_STEP][PASSED] - startApplication(System.getProperty("user.dir") + "\Apk\app-release-second-hand-gcp.apk", false): Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - User set preference: ['appWaitforLaunch', 'false']
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - User set preference: ['ignoreHiddenApiPolicyError', 'true']
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2023-07-03 21:25:07 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-07-03 21:25:08 - [MESSAGE][INFO] - Appium server started on port 52,982
+
+2023-07-03 21:25:16 - [MESSAGE][PASSED] - Started app at: 'E:\GitRepo\Katalon\binarqa-group1-app\Apk\app-release-second-hand-gcp.apk'
+
+2023-07-03 21:25:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:16 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:25:16 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Masuk from Akun Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:25:17 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Masuk from Akun Page: Test Cases/Pages/Akun/Tap Masuk from Akun Page
+
+2023-07-03 21:25:17 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.widget.Button - Masuk from Akun"), 0): Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:25:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.widget.Button - Masuk from Akun'
+
+2023-07-03 21:25:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Masuk from Akun Page' successfully
+
+2023-07-03 21:25:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Email"), ["email":"prabotanpreloved@mytestmail.net"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:25:17 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Email: Test Cases/Pages/Login/Input Email
+
+2023-07-03 21:25:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Email"), email, 0): Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:25:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:19 - [MESSAGE][PASSED] - Text 'prabotanpreloved@mytestmail.net' has been set to element 'Object Repository/Login/android.widget.EditText - Email'
+
+2023-07-03 21:25:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Email' successfully
+
+2023-07-03 21:25:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Input Password"), ["password":"a1b2c3d4"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:25:19 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Input Password: Test Cases/Pages/Login/Input Password
+
+2023-07-03 21:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login/android.widget.EditText - Password"), password, 0): Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:25:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:20 - [MESSAGE][PASSED] - Text 'a1b2c3d4' has been set to element 'Object Repository/Login/android.widget.EditText - Password'
+
+2023-07-03 21:25:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Input Password' successfully
+
+2023-07-03 21:25:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Login/Tap Button Masuk"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:25:20 - [TEST_CASE][PASSED] - Test Cases/Pages/Login/Tap Button Masuk: Test Cases/Pages/Login/Tap Button Masuk
+
+2023-07-03 21:25:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login/android.widget.Button - Button Masuk"), 0): Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:25:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/android.widget.Button - Button Masuk'
+
+2023-07-03 21:25:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Login/Tap Button Masuk' successfully
+
+2023-07-03 21:25:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Daftar Jual Saya"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:25:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Daftar Jual Saya: Test Cases/Pages/Akun/Tap Daftar Jual Saya
+
+2023-07-03 21:25:24 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Daftar Jual Saya"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:25:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Daftar Jual Saya'
+
+2023-07-03 21:25:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Daftar Jual Saya' successfully
+
+2023-07-03 21:25:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Daftar Jual Saya/Tap Tab Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:25:24 - [TEST_CASE][PASSED] - Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati: Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati
+
+2023-07-03 21:25:24 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:25:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.widget.LinearLayout - Tab Diminati'
+
+2023-07-03 21:25:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Daftar Jual Saya/Tap Tab Diminati' successfully
+
+2023-07-03 21:25:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click First Diminati"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:25:25 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click First Diminati: Test Cases/Pages/Update Status Seller/Click First Diminati
+
+2023-07-03 21:25:25 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/android.view.ViewGroup - First Diminati"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:25:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/android.view.ViewGroup - First Diminati'
+
+2023-07-03 21:25:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click First Diminati' successfully
+
+2023-07-03 21:25:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Terima"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:25:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Terima: Test Cases/Pages/Update Status Seller/Click Terima
+
+2023-07-03 21:25:28 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Terima"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:25:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Terima'
+
+2023-07-03 21:25:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Terima' successfully
+
+2023-07-03 21:25:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Back' successfully
+
+2023-07-03 21:25:28 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Back: Test Cases/Pages/Update Status Seller/Click Back
+
+2023-07-03 21:25:28 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:25:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:25:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Back' successfully
+
+2023-07-03 21:25:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Refresh"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:25:31 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Refresh: Test Cases/Pages/Buyer Bid/Refresh
+
+2023-07-03 21:25:31 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2023-07-03 21:25:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-07-03 21:25:41 - [TEST_STEP][PASSED] - swipe(300, 1400, 300, 1400 + 680): Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:25:44 - [MESSAGE][PASSED] - Swiped from 300,1,400 to 300,2,080
+
+2023-07-03 21:25:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Refresh' successfully
+
+2023-07-03 21:25:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Status"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Status' successfully
+
+2023-07-03 21:25:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Status: Test Cases/Pages/Update Status Seller/Click Status
+
+2023-07-03 21:25:45 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Status"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Status'
+
+2023-07-03 21:25:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Status'
+
+2023-07-03 21:25:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Status' successfully
+
+2023-07-03 21:25:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Berhasil Terjual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Berhasil Terjual' successfully
+
+2023-07-03 21:25:45 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Berhasil Terjual: Test Cases/Pages/Update Status Seller/Click Berhasil Terjual
+
+2023-07-03 21:25:46 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.RadioButton - Berhasil terjual"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.RadioButton - Berhasil terjual'
+
+2023-07-03 21:25:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.RadioButton - Berhasil terjual'
+
+2023-07-03 21:25:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Berhasil Terjual' successfully
+
+2023-07-03 21:25:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Click Simpan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Click Simpan' successfully
+
+2023-07-03 21:25:46 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Click Simpan: Test Cases/Pages/Update Status Seller/Click Simpan
+
+2023-07-03 21:25:46 - [TEST_STEP][PASSED] - tap(findTestObject("Daftar Jual Saya/Detail/android.widget.Button - Simpan"), 0): Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Simpan'
+
+2023-07-03 21:25:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Daftar Jual Saya/Detail/android.widget.Button - Simpan'
+
+2023-07-03 21:25:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Click Simpan' successfully
+
+2023-07-03 21:25:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Update Status Seller/Verify Berhasil Terjual"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Berhasil Terjual' successfully
+
+2023-07-03 21:25:47 - [TEST_CASE][PASSED] - Test Cases/Pages/Update Status Seller/Verify Berhasil Terjual: Test Cases/Pages/Update Status Seller/Verify Berhasil Terjual
+
+2023-07-03 21:25:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar Jual Saya/Detail/android.widget.TextView - Berhasil terjual status"), "Berhasil terjual"): Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Berhasil terjual status' are matched.
+
+2023-07-03 21:25:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar Jual Saya/Detail/android.widget.TextView - Berhasil terjual status' are matched.
+
+2023-07-03 21:25:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Update Status Seller/Verify Berhasil Terjual' successfully
+
+2023-07-03 21:25:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:48 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:25:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:25:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:25:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Buyer Bid/Click Back"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Buyer Bid/Click Back: Test Cases/Pages/Buyer Bid/Click Back
+
+2023-07-03 21:25:51 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-07-03 21:25:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-07-03 21:25:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Buyer Bid/Click Back' successfully
+
+2023-07-03 21:25:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Navbar/Tap Akun"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:54 - [TEST_CASE][PASSED] - Test Cases/Pages/Navbar/Tap Akun: Test Cases/Pages/Navbar/Tap Akun
+
+2023-07-03 21:25:54 - [TEST_STEP][PASSED] - tap(findTestObject("Navbar/android.widget.FrameLayout - Navbar Akun"), 0): Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navbar/android.widget.FrameLayout - Navbar Akun'
+
+2023-07-03 21:25:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Navbar/Tap Akun' successfully
+
+2023-07-03 21:25:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Akun/Tap Logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:25:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Akun/Tap Logout: Test Cases/Pages/Akun/Tap Logout
+
+2023-07-03 21:25:55 - [TEST_STEP][PASSED] - tap(findTestObject("Akun/android.view.ViewGroup - Logout"), 0): Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:25:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-03 21:25:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Akun/android.view.ViewGroup - Logout'
+
+2023-07-03 21:25:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Akun/Tap Logout' successfully
+
+2023-07-03 21:25:56 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Close app successfully
+
+2023-07-03 21:25:56 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual | Status: PASSED
+
+2023-07-03 21:25:56 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual | Status: PASSED
+
+2023-07-03 21:25:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-07-03 21:25:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 21:18:39 - [TEST_SUITE][PASSED] - Feature Seller Select Offer and Update Status: Test Cases/Step Definition/Feature Bid/UPD01 - Seller Update Status to Berhasil Terjual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

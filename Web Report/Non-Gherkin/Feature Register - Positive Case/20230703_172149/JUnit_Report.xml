@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Register - Positive Case" time="9.974" tests="1" failures="0" errors="0">
+   <testsuite name="Feature Register - Positive Case" tests="1" failures="0" errors="0" time="9.974" skipped="0" timestamp="2023-07-03 17:21:51" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Register - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172149\\Feature Register - Positive Case\\20230703_172149"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_172149\\Feature Register - Positive Case\\20230703_172149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="0fa44fcaae7aab0513cd30ae2669d9d9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials" time="9.806" classname="Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:21:51 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials
+
+2023-07-03 17:21:51 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:21:51 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials
+
+2023-07-03 17:21:51 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials
+
+2023-07-03 17:21:51 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:21:51 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:21:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:21:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:21:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:21:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:21:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:21:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Click Masuk from homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:21:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Click Masuk from homepage: Test Cases/Pages/Homepage/Click Masuk from homepage
+
+2023-07-03 17:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Navbar/a_Masuk")): Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Navbar/a_Masuk' is clicked on
+
+2023-07-03 17:21:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Click Masuk from homepage' successfully
+
+2023-07-03 17:21:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Click Button Daftar di sini from login page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Click Button Daftar di sini from login page' successfully
+
+2023-07-03 17:21:55 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Click Button Daftar di sini from login page: Test Cases/Pages/Register/Click Button Daftar di sini from login page
+
+2023-07-03 17:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Daftar di sini")): Object: 'Object Repository/Login/a_Daftar di sini' is clicked on
+
+2023-07-03 17:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Daftar di sini' is clicked on
+
+2023-07-03 17:21:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Click Button Daftar di sini from login page' successfully
+
+2023-07-03 17:21:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Input Nama with custom keyword"), ["name":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Input Nama with custom keyword' successfully
+
+2023-07-03 17:21:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Input Nama with custom keyword: Test Cases/Pages/Register/Input Nama with custom keyword
+
+2023-07-03 17:21:56 - [TEST_STEP][PASSED] - Nama = packages.randomName.getWaktu(): packages.randomName.getWaktu is PASSED
+
+2023-07-03 17:21:56 - [MESSAGE][PASSED] - packages.randomName.getWaktu is PASSED
+
+2023-07-03 17:21:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Name"), Nama): Keys 'User 210323-0521' sent to object: 'Object Repository/Register/input_Name'
+
+2023-07-03 17:21:57 - [MESSAGE][PASSED] - Keys 'User 210323-0521' sent to object: 'Object Repository/Register/input_Name'
+
+2023-07-03 17:21:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Input Nama with custom keyword' successfully
+
+2023-07-03 17:21:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Input Email with custom keyword"), ["email":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Input Email with custom keyword' successfully
+
+2023-07-03 17:21:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Input Email with custom keyword: Test Cases/Pages/Register/Input Email with custom keyword
+
+2023-07-03 17:21:57 - [TEST_STEP][PASSED] - Email = packages.randomEmail.getEmail("gmail.com"): packages.randomEmail.getEmail is PASSED
+
+2023-07-03 17:21:57 - [MESSAGE][PASSED] - packages.randomEmail.getEmail is PASSED
+
+2023-07-03 17:21:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Register/input_Email"), Email): Keys 'user210323-0521-310@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+2023-07-03 17:21:57 - [MESSAGE][PASSED] - Keys 'user210323-0521-310@gmail.com' sent to object: 'Object Repository/Register/input_Email'
+
+2023-07-03 17:21:57 - [TEST_STEP][PASSED] - packages.createGlobalVariables.addGlobalVariable("email", Email): packages.createGlobalVariables.addGlobalVariable is PASSED
+
+2023-07-03 17:21:58 - [MESSAGE][PASSED] - packages.createGlobalVariables.addGlobalVariable is PASSED
+
+2023-07-03 17:21:58 - [TEST_STEP][PASSED] - println(email): null
+
+2023-07-03 17:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Input Email with custom keyword' successfully
+
+2023-07-03 17:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Input Password"), ["password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Input Password' successfully
+
+2023-07-03 17:21:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Input Password: Test Cases/Pages/Register/Input Password
+
+2023-07-03 17:21:58 - [TEST_STEP][PASSED] - setText(findTestObject("Register/input_Password"), password): Text 'abc!12345' is set on object 'Object Repository/Register/input_Password'
+
+2023-07-03 17:21:58 - [MESSAGE][PASSED] - Text 'abc!12345' is set on object 'Object Repository/Register/input_Password'
+
+2023-07-03 17:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Input Password' successfully
+
+2023-07-03 17:21:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Click Button Daftar to submit"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Click Button Daftar to submit' successfully
+
+2023-07-03 17:21:58 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Click Button Daftar to submit: Test Cases/Pages/Register/Click Button Daftar to submit
+
+2023-07-03 17:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Register/button_Daftar")): Object: 'Object Repository/Register/button_Daftar' is clicked on
+
+2023-07-03 17:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Daftar' is clicked on
+
+2023-07-03 17:21:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Click Button Daftar to submit' successfully
+
+2023-07-03 17:21:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Register/Verify Register Valid"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Register/Verify Register Valid' successfully
+
+2023-07-03 17:21:59 - [TEST_CASE][PASSED] - Test Cases/Pages/Register/Verify Register Valid: Test Cases/Pages/Register/Verify Register Valid
+
+2023-07-03 17:21:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Navbar/a_Profil Saya Icon")): Object 'Object Repository/Navbar/a_Profil Saya Icon' is visible
+
+2023-07-03 17:22:00 - [MESSAGE][PASSED] - Object 'Object Repository/Navbar/a_Profil Saya Icon' is visible
+
+2023-07-03 17:22:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Register/Verify Register Valid' successfully
+
+2023-07-03 17:22:00 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:22:00 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials | PASSED
+
+2023-07-03 17:22:00 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials | PASSED
+
+2023-07-03 17:22:00 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:22:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:22:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:21:51 - [TEST_SUITE][PASSED] - Feature Register - Positive Case: Test Cases/Step Definition/Feature Register/REG01 - User register with valid credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Feature Search Product - Positive Case" time="18.179" tests="3" failures="0" errors="0">
+   <testsuite name="Feature Search Product - Positive Case" tests="3" failures="0" errors="0" time="18.179" skipped="0" timestamp="2023-07-03 17:45:47" hostname="ASUS - ASUS-RN911" id="Test Suites/Feature Search Product - Positive Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174544\\Feature Search Product - Positive Case\\20230703_174545"/>
+         <property name="logFiles" value="E:\\GitRepo\\Katalon\\binarqa-group1-web\\Reports\\20230703_174544\\Feature Search Product - Positive Case\\20230703_174545\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - ASUS-RN911"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.116"/>
+         <property name="sessionId" value="b35fcfc5f3aa827bbcc2135eb876c227"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" time="5.87" classname="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:47 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:47 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:47 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:47 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:47 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:47 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:45:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:45:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:45:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Input Text in Search Field"), ["text":text], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:45:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Input Text in Search Field: Test Cases/Pages/Homepage/Input Text in Search Field
+
+2023-07-03 17:45:51 - [TEST_STEP][PASSED] - setText(findTestObject("Navbar/input_Search Field"), text): Text 'zenbook' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:51 - [MESSAGE][PASSED] - Text 'zenbook' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:45:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Press Enter Key"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:45:51 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Press Enter Key: Test Cases/Pages/Homepage/Press Enter Key
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Navbar/input_Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify First Product Card Name"), ["text":"(?i).*" + text + ".*"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:45:52 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify First Product Card Name: Test Cases/Pages/Homepage/Verify First Product Card Name
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/h5_First Product Card Title")), text, true): Actual text 'Asus Zenbook Pro 1...' and expected text '(?i).*zenbook.*' are matched  using regular expression
+
+2023-07-03 17:45:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/h5_First Product Card Title' is: 'Asus Zenbook Pro 1...'
+
+2023-07-03 17:45:52 - [MESSAGE][PASSED] - Actual text 'Asus Zenbook Pro 1...' and expected text '(?i).*zenbook.*' are matched  using regular expression
+
+2023-07-03 17:45:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:45:52 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" time="5.597" classname="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:53 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:53 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:53 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:53 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:53 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:53 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:45:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:45:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:45:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Input Text in Search Field"), ["text":text], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:45:56 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Input Text in Search Field: Test Cases/Pages/Homepage/Input Text in Search Field
+
+2023-07-03 17:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Navbar/input_Search Field"), text): Text 'flanel' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:57 - [MESSAGE][PASSED] - Text 'flanel' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:45:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Press Enter Key"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:45:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Press Enter Key: Test Cases/Pages/Homepage/Press Enter Key
+
+2023-07-03 17:45:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Navbar/input_Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:45:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:45:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify First Product Card Name"), ["text":"(?i).*" + text + ".*"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:45:57 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify First Product Card Name: Test Cases/Pages/Homepage/Verify First Product Card Name
+
+2023-07-03 17:45:57 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/h5_First Product Card Title")), text, true): Actual text 'Kemeja Flanel' and expected text '(?i).*flanel.*' are matched  using regular expression
+
+2023-07-03 17:45:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/h5_First Product Card Title' is: 'Kemeja Flanel'
+
+2023-07-03 17:45:58 - [MESSAGE][PASSED] - Actual text 'Kemeja Flanel' and expected text '(?i).*flanel.*' are matched  using regular expression
+
+2023-07-03 17:45:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:45:58 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:45:58 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:45:58 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:45:58 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:45:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:45:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" time="6.484" classname="Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product" status="PASSED">
+         <system-out><![CDATA[2023-07-03 17:45:59 - [TEST_CASE][PASSED] - Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:59 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Current window maximized
+
+2023-07-03 17:45:59 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:59 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product
+
+2023-07-03 17:45:59 - [TEST_STEP][PASSED] - openBrowser(): null
+
+2023-07-03 17:45:59 - [TEST_STEP][PASSED] - openBrowser("https://secondhand.binaracademy.org/"): Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:45:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-03 17:45:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-03 17:46:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://secondhand.binaracademy.org/'
+
+2023-07-03 17:46:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-03 17:46:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-03 17:46:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Input Text in Search Field"), ["text":text], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:46:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Input Text in Search Field: Test Cases/Pages/Homepage/Input Text in Search Field
+
+2023-07-03 17:46:03 - [TEST_STEP][PASSED] - setText(findTestObject("Navbar/input_Search Field"), text): Text 'hrv' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:46:03 - [MESSAGE][PASSED] - Text 'hrv' is set on object 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:46:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Input Text in Search Field' successfully
+
+2023-07-03 17:46:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Press Enter Key"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:46:03 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Press Enter Key: Test Cases/Pages/Homepage/Press Enter Key
+
+2023-07-03 17:46:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Navbar/input_Search Field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:46:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Navbar/input_Search Field'
+
+2023-07-03 17:46:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Press Enter Key' successfully
+
+2023-07-03 17:46:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pages/Homepage/Verify First Product Card Name"), ["text":"(?i).*" + text + ".*"], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:46:04 - [TEST_CASE][PASSED] - Test Cases/Pages/Homepage/Verify First Product Card Name: Test Cases/Pages/Homepage/Verify First Product Card Name
+
+2023-07-03 17:46:04 - [TEST_STEP][PASSED] - verifyMatch(getText(findTestObject("Homepage/h5_First Product Card Title")), text, true): Actual text 'Honda HRV Putih' and expected text '(?i).*hrv.*' are matched  using regular expression
+
+2023-07-03 17:46:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Homepage/h5_First Product Card Title' is: 'Honda HRV Putih'
+
+2023-07-03 17:46:05 - [MESSAGE][PASSED] - Actual text 'Honda HRV Putih' and expected text '(?i).*hrv.*' are matched  using regular expression
+
+2023-07-03 17:46:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pages/Homepage/Verify First Product Card Name' successfully
+
+2023-07-03 17:46:05 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2023-07-03 17:46:05 - [TEST_STEP][PASSED] - logInfo("Test Case: " + testCaseContext.getTestCaseId() + " | " + testCaseContext.getTestCaseStatus()): Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:46:05 - [MESSAGE][INFO] - Test Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product | PASSED
+
+2023-07-03 17:46:05 - [TEST_STEP][PASSED] - closeBrowser(): null
+
+2023-07-03 17:46:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-03 17:46:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-03 17:45:47 - [TEST_SUITE][PASSED] - Feature Search Product - Positive Case: Test Cases/Step Definition/Feature Search Product/SRC01 - Search Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
